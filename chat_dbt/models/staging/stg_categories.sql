@@ -7,6 +7,6 @@ with staging as (
 select 
     cast(ID as varchar) as id,
     cast(PARENT_ID as varchar) as parent_id,
-    cast(DISABLED as boolean) as disabled
-
+    cast(DISABLED as boolean) as disabled,
+    hash(concat(id)) as row_hash
 from staging 

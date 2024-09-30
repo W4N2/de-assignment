@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: dim_categories
+    columns:
+      - name: id
+        tests:
+          - unique
+          - not_null
+      - name: row_hash
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_chats
+    columns:
+      - name: id
+        tests:
+          - unique
+          - not_null
+      - name: row_hash
+        tests:
+          - unique
+          - not_null
+      - name: chat_category_id
+        tests:
+          - relationships:
+              name: test_categories_exist_in_dim_categories
+              to: ref('dim_categories')
+              field: id
