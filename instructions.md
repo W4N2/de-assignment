@@ -47,8 +47,8 @@ to know the following statistics relating to chat volumes:
 - 2. The date that saw the highest number of chats resolved
 - 3. The median number customer-initiated chats which are resolved per day
 - 4. The ten most populous categories for chats created by customers
-- 5. The ten categories with the lowest resolution rate
-- 6. The ten categories with the fastest resolution time
+- 5. The ten categories with the lowest resolution rate <-- assumes resolution rate 1 where resolved dttm is not null
+- 6. The ten categories with the fastest resolution time <-- assumes chat-handling time is date diff of resolved dttm anbd created at dttm
 - 7. The hourly distribution of chats by time-of-day and day-of-week
 Tips:
 Agents are always rostered using Melbourne’s timezone.
