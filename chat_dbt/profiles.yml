@@ -1,0 +1,13 @@
+chat_dbt:
+  outputs:
+    prod:
+      account: 
+      database: chat_db
+      password: 
+      role: dbt_sa_role
+      schema: chat_int
+      threads: 1
+      type: snowflake
+      user: 
+      warehouse: dbt_wh
+  target: dev
