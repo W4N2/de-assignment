@@ -43,7 +43,7 @@ Update the following values in `chat_dbt/profiles.yml`:
 - `setup_snowflake.sql` Contains the initial script required to create the snowflake env 
 
 ## Data Governance Considerations
-Data governence is everyones responsibility haha. Using out-of-the-box dbt solutions (along with dbt-utils and elementary) allows us to build a set of data quality tests that provide a level of trust and conformity in the data. Establishing a culture of data producers owning the data governence is also a vital part of how we would bring awareness and trust in the data. We want data producers to produce and record:
+Data governence is everyones responsibility. Using out-of-the-box dbt solutions (along with dbt-utils and elementary) allows us to build a set of data quality tests that provide a level of trust and conformity in the data. Establishing a culture of data producers owning the data governence is also a vital part of how we would bring awareness and trust in the data. We want data producers to produce and record:
 - What data their apps are producing
 - How their data is validated
 - What APIs are available
