@@ -2,6 +2,12 @@
 
 ## Overview
 
+This project contains the source code and analysis for the Up Interview takehome work. 
+
+The diagram below describes the wider architecture and in-scope work completed as part of this exercise. 
+
+![Diagram](./de-diagram.png)
+
 This data pipeline ingests raw CSV files into Snowflake and runs a dbt ETL process to transform the data. 
 
 The pipeline processes data from the `chat_raw` database to the `chat_int` database.
