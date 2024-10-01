@@ -1,0 +1,8 @@
+QUESTION,ANSWER
+The date that saw the lowest number of chats resolved,2000-03-05
+The date that saw the highest number of chats resolved,2000-03-16
+The median number customer-initiated chats which are resolved per day,398.000
+The ten most populous categories for chats created by customers,"f1acb075-194a-5d2d-b91c-81d1575060a9, 5495d5ff-f007-5a58-a4c8-4d060c17ca7e, 93f3d61e-0ca3-56a7-9ea7-9e7b6c49eff1, c25b9c6d-859a-5252-bf04-db51ac5844fc, c025cdef-7650-592b-a775-d7a8d0550a22, 57f4f61e-21bc-578f-85da-ea57e0433cbc, cd7a129c-c775-5185-a6aa-9dc4b0b09a2e, 68f92d2b-20df-54e0-a2d4-2ed613e70bb7, f4623bdb-08f7-59cb-8342-7706bdffb2bb, dc6aa305-2c63-58f8-a850-6c9a29a44763"
+The ten categories with the lowest resolution rate,"f1acb075-194a-5d2d-b91c-81d1575060a9, 5495d5ff-f007-5a58-a4c8-4d060c17ca7e, c25b9c6d-859a-5252-bf04-db51ac5844fc, 93f3d61e-0ca3-56a7-9ea7-9e7b6c49eff1, 57f4f61e-21bc-578f-85da-ea57e0433cbc, c025cdef-7650-592b-a775-d7a8d0550a22, cd7a129c-c775-5185-a6aa-9dc4b0b09a2e, 68f92d2b-20df-54e0-a2d4-2ed613e70bb7, f4623bdb-08f7-59cb-8342-7706bdffb2bb, dc6aa305-2c63-58f8-a850-6c9a29a44763"
+The ten categories with the fastest resolution time,"93f3d61e-0ca3-56a7-9ea7-9e7b6c49eff1, c025cdef-7650-592b-a775-d7a8d0550a22, 57f4f61e-21bc-578f-85da-ea57e0433cbc, f1acb075-194a-5d2d-b91c-81d1575060a9, c25b9c6d-859a-5252-bf04-db51ac5844fc, 5495d5ff-f007-5a58-a4c8-4d060c17ca7e, dc6aa305-2c63-58f8-a850-6c9a29a44763, f4623bdb-08f7-59cb-8342-7706bdffb2bb, 68f92d2b-20df-54e0-a2d4-2ed613e70bb7, cd7a129c-c775-5185-a6aa-9dc4b0b09a2e"
+The hourly distribution of chats by time-of-day and day-of-week,select * from fct_chats_per_day_hour
