@@ -57,3 +57,4 @@ Data governence is everyones responsibility haha. Using out-of-the-box dbt solut
 - Consider where raw files are landed 
 - Add in dbt contracts at staging to ensure raw files adhere to expected downstream standards and fail load/alert based on business operational needs 
 - Publishing dbt docs in wider community for data visbility - i.e Backstage or similar enterprise documentation solutions 
+- Add in elementary tests and publish the edr report to monitor test metrics over time 
